@@ -1,12 +1,16 @@
-import "./App.css";
-import Form from "./Pages/Form";
-
+import "./App.scss";
+import { About, Footer, Header, Skills, Testimonial, Work } from "./container";
+import { Navbar } from "./components";
 function App() {
   return (
     <div className="app">
-      <h2>my portfolio!!!!!</h2>
-
-      {/* <Form /> */}
+      <Navbar />
+      <Header />
+      <About />
+      <Work />
+      <Skills />
+      <Testimonial />
+      <Footer />
     </div>
   );
 }
